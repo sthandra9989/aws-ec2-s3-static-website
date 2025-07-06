@@ -24,12 +24,11 @@ cd aws-ec2-s3-static-website
    git config --global user.name "username"
    git config --global user.email "email-id"
    sudo yum install httpd -y
-   sudo systemctl status httpd
    sudo systemctl start httpd
-   sudo systemctl status httpd
    sudo systemctl enable httpd
+   sudo systemctl status httpd
    sudo usermod -a -G apache ec2-user
-   sudo chmod 777 /var/www/html
+   sudo chmod 755 /var/www/html
    pwd
    cd /var/www/html
    pwd
