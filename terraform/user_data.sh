@@ -1,6 +1,6 @@
 #!/bin/bash
 yum update -y
-yum install -y httpd awscli
+yum install -y httpd 
 
 # Set variables passed from templatefile
 S3_BUCKET="${s3_bucket}"
