@@ -11,7 +11,7 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  default = "my-key"
+  default = "key"
 }
 
 variable "public_key_path" {
