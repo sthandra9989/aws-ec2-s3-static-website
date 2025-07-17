@@ -53,6 +53,6 @@ resource "aws_instance" "web" {
   })
 
   tags = {
-    Name = "Apache2-Server"
+    Name = "webserver"
   }
 }
