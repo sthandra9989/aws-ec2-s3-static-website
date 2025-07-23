@@ -101,10 +101,14 @@ sudo nano index.html
     <title>My Static Website</title>
 </head>
 <body>
-    <h1>Welcome to My Static Website!</h1>
-    <img src="http://your-bucket-name.s3.amazonaws.com/Coffee.png" alt="Coffee Image">
+    <h1 style="text-align: center;">Welcome to My Static Website!</h1>
+
+    <div style="text-align: center;">
+        <img src="http://your-bucket-name.s3.amazonaws.com/Coffee.png" alt="Coffee Image">
+    </div>
 </body>
 </html>
+
 ```
 
 > 📌 Replace the `src` URL with your copied S3 image URL.
